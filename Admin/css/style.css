@@ -1,0 +1,63 @@
+html,body{
+    height: 100%;
+}
+body{
+    padding-top: 70px;
+}
+.huge{
+    font-size:40px;
+}
+.tag-boxes .card-primary{
+    border: 2px solid #239EE6;
+}
+
+.tag-boxes .card-danger{
+    
+    border: 2px solid red;
+}
+
+.tag-boxes .card-danger a{
+    color: red;
+}
+
+.tag-boxes .card-warning{
+    
+    border: 2px solid #DD5600;
+}
+
+.tag-boxes .card-warning a{
+    color: #DD5600;
+}
+.tag-boxes .card-success{
+    
+    border: 2px solid #73A839;
+}
+
+.tag-boxes .card-success a{
+    color: #73A839;
+}
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+.main-section{
+    padding-bottom: 70px;
+}
+footer{
+    background-color: #239EE6;
+    color:white;
+    height: 50px;
+    line-height: 50px;
+    font-size:15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    color:white;
+    font-weight: bold;
+}
+footer a:hover{
+    color:white;
+    text-decoration: underline;
+}
